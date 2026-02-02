@@ -1,0 +1,44 @@
+{
+  "categories": [
+    "Livsmedel/Grönt",
+    "Livsmedel/Frukt",
+    "Livsmedel/Mejeri",
+    "Livsmedel/Kött",
+    "Livsmedel/Fisk",
+    "Livsmedel/Vegetariskt",
+    "Livsmedel/Bröd",
+    "Livsmedel/Fryst",
+    "Livsmedel/Skafferi",
+    "Livsmedel/Snacks",
+    "Dryck",
+    "Hygien",
+    "Hushåll",
+    "Djur",
+    "Pant",
+    "Rabatt",
+    "Övrigt",
+    "Okategoriserat"
+  ],
+  "ean_rules": {},
+  "name_rules": {},
+  "keyword_rules": [],
+  "normalization": {
+    "exact": {},
+    "contains": []
+  },
+  "special_rules": {
+    "pant_keywords": [
+      "PANT"
+    ],
+    "discount_keywords": [
+      "RABATT",
+      "PRISAVDRAG",
+      "WILLYS PLUS",
+      "NEDSATT",
+      "PRISSÄNKT"
+    ]
+  },
+  "_meta": {
+    "name_rules_canonical_v1": true
+  }
+}
