@@ -1,29 +1,1612 @@
 {
   "categories": [
-    "Livsmedel/Grönt",
-    "Livsmedel/Frukt",
-    "Livsmedel/Mejeri",
-    "Livsmedel/Kött",
-    "Livsmedel/Fisk",
-    "Livsmedel/Vegetariskt",
+    "Djur",
+    "Hushåll",
+    "Hygien",
+    "Kläder",
+    "Leksaker och lego",
     "Livsmedel/Bröd",
+    "Livsmedel/Dryck",
+    "Livsmedel/Fisk",
+    "Livsmedel/Frukt",
     "Livsmedel/Fryst",
+    "Livsmedel/Färdigmat",
+    "Livsmedel/Glass",
+    "Livsmedel/Grönt",
+    "Livsmedel/Kryddor",
+    "Livsmedel/Kött",
+    "Livsmedel/Mejeri",
     "Livsmedel/Skafferi",
     "Livsmedel/Snacks",
-    "Dryck",
-    "Hygien",
-    "Hushåll",
-    "Djur",
+    "Livsmedel/Vegetariskt",
+    "Livsmedel/Växtdryck",
+    "Lotter",
+    "Okategoriserat",
     "Pant",
+    "Pappkasse",
+    "Presentkort",
     "Rabatt",
-    "Övrigt",
-    "Okategoriserat"
+    "Övrigt"
   ],
   "ean_rules": {},
-  "name_rules": {},
-  "keyword_rules": [],
+  "name_rules": {
+    "3P RESERVLAMPA": "Hushåll",
+    "ADA LJUSSTAKE": "Hushåll",
+    "DELIFRESH PLANT": "Livsmedel/Växtdryck",
+    "AHSOKAS JEDI SW": "Leksaker och lego",
+    "250 NINTENDO": "Presentkort",
+    "SKÄMTLÅDA YUMI": "Leksaker och lego",
+    "STÖVEL SVART VARMF": "Kläder",
+    "BARISTA DUMLE HAVR": "Livsmedel/Växtdryck",
+    "MED TRÄDKOJA VÅR": "Leksaker och lego",
+    "MICRO REFILL TURBO": "Hushåll",
+    "RÖD SNUDDIE": "Kläder",
+    "10 STEG TECKNA": "Leksaker och lego",
+    "BABY BALL EDAM": "Livsmedel/Mejeri",
+    "3P NINJAG STRUMPOR": "Kläder",
+    "3P STRUMPA WHEEL": "Kläder",
+    "KOMMER RUMPA VEMS": "Leksaker och lego",
+    "TRISS": "Lotter",
+    "HALLOWEENSMINK": "Hushåll",
+    "CHARK SNART ÄT": "Livsmedel/Färdigmat",
+    "ALL LIM PLASTICS": "Hushåll",
+    "EX JORDG KRÄM PRIM": "Livsmedel/Färdigmat",
+    "JOY": "Livsmedel/Snacks",
+    "CHICKEN MARRY ME": "Livsmedel/Färdigmat",
+    "BOLOGNE LASAGNETTE": "Livsmedel/Färdigmat",
+    "40W KLOT LEDCL ND": "Hushåll",
+    "FIL MAN PERS": "Livsmedel/Mejeri",
+    "ANIMALS GIFT": "Leksaker och lego",
+    "ATT COCONUT KIKIS": "Leksaker och lego",
+    "KOMPAKTLASTARE": "Leksaker och lego",
+    "EFTERRÄTTSGL VANILJ": "Livsmedel/Glass",
+    "ARLA KO MJÖLK": "Livsmedel/Mejeri",
+    "ZETA OLIVOLJA": "Livsmedel/Skafferi",
+    "FELIX KÖTTBULLAR": "Livsmedel/Fryst",
+    "YES DISKMEDEL": "Hushåll",
+    "PEPSI MAX 1,5L": "Livsmedel/Dryck",
+    "LINDT EXCELLENCE": "Livsmedel/Snacks",
+    "ICA VISPGRÄDDE": "Livsmedel/Mejeri",
+    "OUMPH CHUNKS": "Livsmedel/Vegetariskt",
+    "PAMPERS BABY DRY": "Hygien",
+    "VALIO LAKTOSFRI": "Livsmedel/Mejeri",
+    "DEMAE MISO RAMEN": "Livsmedel/Skafferi",
+    "BBQ LESS SAUCE SUG": "Livsmedel/Skafferi",
+    "BJ HA PROV VIVA50": "Livsmedel/Dryck",
+    "BUFFE RAD TOMTAR": "Hushåll",
+    "BURK COLA CUBA": "Livsmedel/Dryck",
+    "BUTTER CREAMY PEANUT": "Livsmedel/Skafferi",
+    "CHO MOUSSE PRO VIT": "Livsmedel/Mejeri",
+    "CLASSICO": "Livsmedel/Skafferi",
+    "DE MEULE TOURTE": "Livsmedel/Bröd",
+    "EXTRSAL RAPS SMÖ": "Livsmedel/Mejeri",
+    "FIL MA PA PE": "Livsmedel/Mejeri",
+    "GLUTENF KEX MARIA": "Livsmedel/Skafferi",
+    "PLOCKEPINN": "Leksaker och lego"
+  },
+  "keyword_rules": [
+    {
+      "keyword": "KOKOSDRYCK OSÖTAD",
+      "category": "Livsmedel/Växtdryck"
+    },
+    {
+      "keyword": "VARA",
+      "category": "Övrigt"
+    },
+    {
+      "keyword": "TROPISK",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "TOPP ZIPPER",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "SPORTDR",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "RÖKT SKIVOR",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "RÖD SNACKS",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "RUND SUND",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "ROSSI VALENTINO",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "ROMAN SALLAD",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "PISTAGEBULLE",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "PEACH PEELERZ",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "PAPPERSKASSE",
+      "category": "Pappkasse"
+    },
+    {
+      "keyword": "ONION SOURCREAM",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "NASHI PÄRON",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "MINIMIX",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "MELON MINT",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "MASALA MIX",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "MANGO",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "LOVE PRESENTPÅSE",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "LEVAIN",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "LANDO NORRIS",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "LANDO MONSTER",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "LABUCHOC",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "KRISTYR",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "KNATTER MELON",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "KEXCHOKLAD",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "KARAMEL KOKOS",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "JÄTTEFRANSKA",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "JOD MEDELHAVSSALT",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "JAPANSKA NUDL",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "INFINITY JGUBB",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TYRKISK",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "PEPPARK",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "HALKIDIKI OLIVER",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "GUM WATERMELON",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "GOLDBEARS SOUR",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "GODIS MINI",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "MARIA KEX",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "GAMMELDAGS VIOL",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "IDEALMAK",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "FRUTTI PASSI",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "FRUKTISAR GOTTES",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "MENTOS",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "FRIES SKINNY",
+      "category": "Livsmedel/Fryst"
+    },
+    {
+      "keyword": "FIL JORDG",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "FAVORITMIX PEPPARK",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "FAST POTATIS",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "EXTRA TROPICAL",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "SOLERO",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "DUMLE ORIGINAL",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "DRYCK DUBAI",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "DOUBLE STUFF",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "DISCOVERY",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "CRUNCH SKINNYFRIES",
+      "category": "Livsmedel/Fryst"
+    },
+    {
+      "keyword": "CRACKERS HOT",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "COCKTAIL FRUIT",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CITRUS WHITE",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "CITRON CRUNCHY",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CHUNKY SALSA",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CHOKLADPUDDING",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "CHOKLADBAR",
+      "category": "Livsmedel/Färdigmat"
+    },
+    {
+      "keyword": "CHOKLAD SÅS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CHOKLAD PROPUD",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "CHOCOLATE PINGUI",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "CHIPS ONION",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "CHIPS LÄTTSALTADE",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "CHEESE CHIPS",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "CHAMPIS ZERO",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "CARBONELLI",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "BÖN GRODDAR",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "PEANUT BUTTER",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "VANILLA ZERO",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "SPRITE",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "BURGER HEAVEN",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "BUBBLEMINT WHITE",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "BUBBA HUBBA",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "BRÖD",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "BRÖD CLASSIC",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "BERRY NIGHT",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "BELTA ROLLA",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "BAR CRME",
+      "category": "Livsmedel/Färdigmat"
+    },
+    {
+      "keyword": "BAR CHOKLAD",
+      "category": "Livsmedel/Färdigmat"
+    },
+    {
+      "keyword": "BAKING GLUE",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "ALLROUNDP ZIP",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "JULADRESSER",
+      "category": "Kläder"
+    },
+    {
+      "keyword": "SPICE",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "BULJONG",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "SPICE MIX",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "FRAICH",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "ORIGINALPLAST",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "CLASSICO PINSASÅS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "COCONUT LIGHT",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "COCONUT MILK",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CHIPS NACHO",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "BBQ SAUCE",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "GRÖN PEPPAR",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "MORÖTTER",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "BRIE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "FRYSTORKADE",
+      "category": "Livsmedel/Fryst"
+    },
+    {
+      "keyword": "ANANAS SPLIT",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "MAKRILLFIL",
+      "category": "Livsmedel/Fisk"
+    },
+    {
+      "keyword": "JULPAPPER",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "DONUTS",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "BAKPLÅTSPAPPER",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "PHILADELPHIA",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "MAZARINER",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "SAREK",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "ÄPPLE",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "STROZZAPRETI",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "BINDOR",
+      "category": "Hygien"
+    },
+    {
+      "keyword": "ALSPÅNSRÖKTA VEGOS",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "PINSABOTTEN",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "SALSA TROPICAL",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "ANANAS SALSA",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "MAJS",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "SAFFRANSSEMLA",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "GRANOLA",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "BRESAOLA",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "DELICATOBOLL",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "BÖNOR",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "BURGARE CRISPY",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "LANTCHIPS",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "SALLADSKÅL",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "TIP TOP",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "DAIM",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "COLA HALLON",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "SMOOTHIE",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "BLODAPELSIN",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "SOPPÅSAR",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "PROEMALJ",
+      "category": "Hygien"
+    },
+    {
+      "keyword": "CHIAFRÖN",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CAKE STRAWBERRY",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "KRYDDMIX",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "ORIGINAL SANDWICH",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "HICKORYBROWNSUGAR",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "PEAR SHAKE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "MINTCHOCOLAT SHAKE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "CAFFE LATTE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "BANANA CHOCO",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "FIL PERS",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "INGEFÄRA RIVEN",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "CHICKEN PULLED",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "DRUVOR",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "PEPPARKAKOR",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "GNOCCHI",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CARA COFFEE",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "PORK TACO",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "KINASTRUT",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "HONUNG",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "KESO",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TOAST",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "NORRGOTT",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TÅRTBOTTEN",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "OST",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "PASTEJ VEGETARISK",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "MAJSKAK",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CHOKLADKNAPP MÖRK",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "PUNSCHRULLAR",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "FRUKTDRYCK TROPISK",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "RAPSOLJA",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "2P LOTUS",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "GRUYERE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "SMÖR",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "BRIOCHE BUN",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "KYCKLING",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "FRAICHE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "HAMBURGERDRESSING",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "VEGOBULLAR",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "FIBERBRÖD",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "BREGOTT",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TROCADERO",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "COCA COLA",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "MUNKENS SVARTA",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "LAMPA LED",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "MILD OST",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "RYGGBIFF",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "PRESSAD VITLÖK",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "CITRUS MOCHI",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "KYCKINGLF",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "SALAME VEGAN",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "VEGOKEBAB",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "KOKOSMJÖLK",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "GLASS",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "KOKOSDRYCK",
+      "category": "Livsmedel/Växtdryck"
+    },
+    {
+      "keyword": "SMÅCITRUS",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "JASMINRIS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "VISPGRÄDDE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "CHOK MAGNUM",
+      "category": "Livsmedel/Glass"
+    },
+    {
+      "keyword": "MOZZARELLA",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TAMARI",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "PORK PULLED",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "YOGH",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "KALKONSALAMI",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "TOMAT",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "TOAPAPP",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "SMASHBURGARE ÄLG",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "FÖRVARINGSBURKAR",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "DISKTAB",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "BONDMORA",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "KINDER",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "FLANKSTEK",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "POTATISBULLAR",
+      "category": "Livsmedel/Färdigmat"
+    },
+    {
+      "keyword": "KRÖGARPYTT",
+      "category": "Livsmedel/Fryst"
+    },
+    {
+      "keyword": "FRYST MANGO",
+      "category": "Livsmedel/Fryst"
+    },
+    {
+      "keyword": "CLEMENTIN",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "KÖRSBÄR",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "PIZZA",
+      "category": "Livsmedel/Fryst"
+    },
+    {
+      "keyword": "VEGOFÄRS",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "KYCKLINGBRÖST",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "KYCKLINGLÅR",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "FLÄSKYTTERFIL",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "NÖTFÄRS",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "KVARG",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TOFU",
+      "category": "Livsmedel/Vegetariskt"
+    },
+    {
+      "keyword": "TORTILLA",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "GODIS LÖSVIKT",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "GURKA",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "JULMUST",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "CHIPS POMMES",
+      "category": "Livsmedel/Fryst"
+    },
+    {
+      "keyword": "HAVREDRYCK",
+      "category": "Livsmedel/Växtdryck"
+    },
+    {
+      "keyword": "GREKISK YOGHURT",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "RISGRÖT",
+      "category": "Livsmedel/Färdigmat"
+    },
+    {
+      "keyword": "PORTELLO",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "BANANER",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "BROCCOLI",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "BACON",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "CHORIZO",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "DUSCHTVÅL",
+      "category": "Hygien"
+    },
+    {
+      "keyword": "FALUKORV",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "KAFFE",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "KATTMAT",
+      "category": "Djur"
+    },
+    {
+      "keyword": "HUNDMAT",
+      "category": "Djur"
+    },
+    {
+      "keyword": "LAXFIL",
+      "category": "Livsmedel/Fisk"
+    },
+    {
+      "keyword": "MANDELDRYCK",
+      "category": "Livsmedel/Växtdryck"
+    },
+    {
+      "keyword": "MJÖLK",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TVÄTTMEDEL",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "ÄGG",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TANDBORSTE",
+      "category": "Hygien"
+    },
+    {
+      "keyword": "FANTA",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "LIMONATA",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "LÖK",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "MOROT",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "PAPRIKA",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "LIME",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "VITLÖK",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "CHILI",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "INGEFÄRA",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "BLOMKÅL",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "PRO MOUSSE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "CREAM CHEESE",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "CHEDDAR",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "SKINKA",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "KALKON",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "PAPPKASSE",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "TANDKÄM",
+      "category": "Hygien"
+    },
+    {
+      "keyword": "APELSINMARMELAD",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "DIGESTIVE",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "MARSHMALLOWS",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "TUNNBRÖD",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "MARÄNGTOPPAR",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "SATSUMAS",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "PLOMMON",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "PROT DRYCK",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TIKKA MASALA",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "RAMEN NUDL",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "LIBA",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "CHOKLADKNAPP",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "BIKARBONAT",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "DESSERTSÅS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "NUTELLA",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "BLANDSAFT",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "NON STOP",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "FAST TVÄTTAD",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "CHICKPEAS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "JALAPENO",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "KNÄCKE",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "CHEEZ CRUNCHERZ",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "HOPPREP",
+      "category": "Leksaker och lego"
+    },
+    {
+      "keyword": "SALLAD ROMAN",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "HAMBURGERBRÖD",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "SKINNY FRIES",
+      "category": "Livsmedel/Fryst"
+    },
+    {
+      "keyword": "LINGUINE",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "MONSTER LANDO",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "SMAKIS",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "KÅLMIX",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "KEBABSÅS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "GRILLOUMI",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "TUGGUMMI",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "POPCORN",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "GRÄDDFIL",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "DIPPMIX",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "AVOKADO",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "GRILLKORV",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "FRUKTDRY",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "PESTO",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "SOURCREAM ONION",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "RIGATONI",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "PEPPERONI",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "TACOSÅS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "RÖDBETOR",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "HALLON",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "CROISSANT",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "SAFFRANSKNUT",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "WIENERBRÖD",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "VICKNINGSCHIPS",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "GOTTES FRUKT",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "ÄTTIKA",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "STRÖSOCKER",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "DADLAR",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "SERVETT",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "JORDNÖTTER",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "VETEMJÖL",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "COLESLAW",
+      "category": "Livsmedel/Färdigmat"
+    },
+    {
+      "keyword": "KEBABRULLE",
+      "category": "Livsmedel/Färdigmat"
+    },
+    {
+      "keyword": "ZUCCHINI",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "SALLAT",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "APELSIN",
+      "category": "Livsmedel/Frukt"
+    },
+    {
+      "keyword": "AVFALLSPÅSAR",
+      "category": "Hushåll"
+    },
+    {
+      "keyword": "SVARTPEPPAR",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "MAKARONER",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "POTATISGRATÄNG",
+      "category": "Livsmedel/Färdigmat"
+    },
+    {
+      "keyword": "BEARNAISE",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "KORV",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "FRUIT COCKTAIL",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "CABANOSSY",
+      "category": "Livsmedel/Kött"
+    },
+    {
+      "keyword": "SAFFRAN",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "PEPPAR GRÖN",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "KORIANDER",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "MARMELAD",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "DIJONSENAP",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "OREO",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "PROTPUDD",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "RISIFRUTTI",
+      "category": "Livsmedel/Mejeri"
+    },
+    {
+      "keyword": "SKALLE",
+      "category": "Livsmedel/Snacks"
+    },
+    {
+      "keyword": "LINGONSYLT",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "KIMCHI",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "LUSSEKATTER",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "NUDLAR",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "SEMLA",
+      "category": "Livsmedel/Bröd"
+    },
+    {
+      "keyword": "SPISKUMMIN",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "PEPSI",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "CITRONER",
+      "category": "Livsmedel/Grönt"
+    },
+    {
+      "keyword": "PENNE",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "MAJONNÄS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "POTATISMOS",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "DR PEPPER",
+      "category": "Livsmedel/Dryck"
+    },
+    {
+      "keyword": "TIMJAN",
+      "category": "Livsmedel/Kryddor"
+    },
+    {
+      "keyword": "MIRIN",
+      "category": "Livsmedel/Skafferi"
+    },
+    {
+      "keyword": "RISVINÄGER",
+      "category": "Livsmedel/Skafferi"
+    }
+  ],
   "normalization": {
-    "exact": {},
+    "exact": {
+      "KVARG NATURELL 2%": "KVARG",
+      "KVARG NAT 500G 0,3%": "KVARG",
+      "POMMES CHIPS": "POMMES CHIPS",
+      "KVARG NATURELL": "KVARG",
+      "RUSTICA PIZZA": "PIZZA",
+      "GREKISK YOGHURT": "GREKISK YOGHURT",
+      "GREKISK YOGHURT 0%": "GREKISK YOGHURT",
+      "GREKISK YOGHURT 1KG": "GREKISK YOGHURT",
+      "HAVREDRYCK DUMLE": "HAVREDRYCK",
+      "GF HAVREDRYCK": "HAVREDRYCK",
+      "BARISTA HAVREDRYCK": "HAVREDRYCK",
+      "BARISTA1L HAVREDRYCK": "HAVREDRYCK",
+      "GLU HAVREDRYCK UHT": "HAVREDRYCK",
+      "10 GREKISK YOGHURT": "GREKISK YOGHURT",
+      "GREKISK NAT0 YOGH": "GREKISK YOGHURT",
+      "DESSERTSÅS KÖRSBÄR": "KÖRSBÄRSSÅS",
+      "KÖRSBÄRSSÅS": "KÖRSBÄRSSÅS",
+      "BARISTA DUMLE HAVR": "DUMLE HAVREDRYCK",
+      "2P COCA COLA ÅT": "COCA-COLA",
+      "COCA COLA ZERO": "COCA-COLA",
+      "COCA COLA LEMON": "COCA-COLA",
+      "RISGRÖT": "RISGRÖT",
+      "39 KR RISGRÖT": "RISGRÖT",
+      "JULMUST": "JULMUST",
+      "JULMUST SF": "JULMUST",
+      "JULMUST S-FRI 1/2P": "JULMUST",
+      "JULMUST LIGHT": "JULMUST",
+      "NORDPOLEN JULMUST": "JULMUST",
+      "LÖK GUL": "GUL LÖK",
+      "LÖK GUL KG": "GUL LÖK",
+      "BONDMORA 10% L": "BONDMORA",
+      "BLODAPELSIN KG": "BLODAPELSIN",
+      "BLODAPELSIN": "BLODAPELSIN",
+      "BRIOCHE BURG.BUN S": "BRIOCHE BURGER BUN",
+      "BRIOCHE BURGER BUN": "BRIOCHE BURGER BUN",
+      "GURKA IMPORT ST": "GURKA",
+      "GURKA ST": "GURKA",
+      "GURKA SVENSK ST": "GURKA",
+      "GURKA SVERIGE ST": "GURKA",
+      "GURKA AGTIRA": "GURKA",
+      "NÖTFÄRS 10-12%": "NÖTFÄRS",
+      "NÖTFÄRS 5%": "NÖTFÄRS",
+      "GREKISK YOGHURT 10%": "GREKISK YOGHURT",
+      "GREKISK YOGH NAT0%": "GREKISK YOGHURT",
+      "MORÖTTER EKO": "MORÖTTER",
+      "MORÖTTER KG": "MORÖTTER",
+      "MOROT EKO 1KG": "MORÖTTER",
+      "MOZZARELLA": "MOZZARELLA",
+      "MINI-MOZZARELLA": "MOZZARELLA",
+      "BUFFELMOZZARELLA": "MOZZARELLA",
+      "MOZZARELLA RIVEN": "MOZZARELLA",
+      "MINI MOZZARELLA": "MOZZARELLA",
+      "ARLA GRÄDDE 36%": "VISPGRÄDDE",
+      "MJÖLK 1,5% 1L": "MJÖLK",
+      "TOAPAPPER 8-P": "TOAPAPP",
+      "SOPPÅSE 20L": "SOPPÅSAR",
+      "JORDNÖTSSMÖR SMOOT": "JORDNÖTSSMÖR",
+      "JORDNÖTSSMÖR": "JORDNÖTSSMÖR",
+      "TROCADERO ZERO": "TROCADERO",
+      "TROCADERO1.5L ZERO": "TROCADERO",
+      "TROCADERO 6P": "TROCADERO",
+      "NATURELL TOFU": "TOFU",
+      "TOFU": "TOFU",
+      "TOFU NATURELL": "TOFU",
+      "TOFU EKO": "TOFU",
+      "TOFU NATURELL EKO": "TOFU",
+      "TOFU NATURELL KRAV": "TOFU",
+      "COCA-COLA Z LEMON": "COCA COLA",
+      "COCA-COLA ZERO": "COCA COLA",
+      "COCA-COLA 1/2P ÅT": "COCA COLA",
+      "KYCKLINGBRÖSTFILE": "KYCKLINGBRÖSTFILE",
+      "KYCKLINGBRÖSTFILÉ": "KYCKLINGBRÖSTFILE",
+      "KYCKLINGLÅRFILE": "KYCKLINGLÅRFILE",
+      "KYCKLINGLÅRFILÉ": "KYCKLINGLÅRFILE",
+      "MAJSKAKOR RANCH": "MAJSKAKOR",
+      "MAJSKAK. GRÄDDF/LÖ": "MAJSKAKOR",
+      "MAJSKAKOR OST": "MAJSKAKOR",
+      "MAJSKAKOR POPCORN": "MAJSKAKOR",
+      "CR FRAICHE 500G": "CREME FRAICHE",
+      "CRME FRAICHEN 34%": "CREME FRAICHE",
+      "CREME FRAICHE 5DL": "CREME FRAICHE",
+      "INGEFÄRA KG": "INGEFÄRA",
+      "VISPGRÄDDEN 40%": "VISPGRÄDDE",
+      "VISPGRÄDDE 36% ESL": "VISPGRÄDDE",
+      "MILD SYRLIG OST10%": "MILD SYRLIG OST",
+      "MILD & SYRLIG OST": "MILD SYRLIG OST",
+      "TOAPAPPER 18P SERLA": "TOAPAPPER SERLA",
+      "SERLA TOAPAPP 18P": "TOAPAPPER SERLA",
+      "LIME": "LIME",
+      "LIME ST": "LIME",
+      "SAREK 8P": "SAREK",
+      "SAREK": "SAREK",
+      "TORKAD MANGO": "MANGO TORKAD",
+      "TORKAD MANGO CHILI": "MANGO TORKAD",
+      "CLEMENTINER": "CLEMENTINER",
+      "CLEMENTINER KG": "CLEMENTINER",
+      "TORTILLA ORIGINAL": "TORTILLA",
+      "TORTILLA 8P": "TORTILLA",
+      "PULLED PORK": "PORK PULLED",
+      "PULLED PORK GYROS": "PORK PULLED",
+      "MONSTER LANDO NORI": "LANDO MONSTER NORRIS",
+      "MONSTER LANDO NORRI": "LANDO MONSTER NORRIS",
+      "KNÄCKE SESAM GF": "GF KNÄCKE SESAM",
+      "KNÄCKE SESAM&HAV GL": "GF KNÄCKE SESAM",
+      "FÄRSKT BRÖD CLASSIC": "BRÖD CLASSIC FÄRSKT",
+      "FÄRSKT BRÖD G.FRI": "BRÖD CLASSIC FÄRSKT",
+      "CREME FRAICHE 32%": "CREME FRAICHE",
+      "BREGOTT ES": "BREGOTT SMÖR",
+      "BREGOTT MELLAN": "BREGOTT SMÖR",
+      "BREGOTT NS": "BREGOTT SMÖR",
+      "NORRGOTT ES": "NORRGOTT SMÖR",
+      "NORRGOTT NS 75%": "NORRGOTT SMÖR",
+      "SMÖR NORMALSALTAT": "SMÖR NORMALSALTAT",
+      "SMÖR NS 82%": "SMÖR NORMALSALTAT",
+      "FLÄSKYTTERFIL": "FLÄSKYTTERFILE",
+      "FLÄSKYTTERFILÉ": "FLÄSKYTTERFILE",
+      "BRYNT SMÖR&CHILI": "BRYNT SMÖR & CHILI",
+      "BRYNT SMÖR CHIPS": "BRYNT SMÖR & CHILI"
+    },
     "contains": []
   },
   "special_rules": {
@@ -40,5 +1623,11 @@
   },
   "_meta": {
     "name_rules_canonical_v1": true
+  },
+  "pack_overrides": {
+    "JULMUST": {
+      "qty": 1.5,
+      "unit": "l"
+    }
   }
 }
