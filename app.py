@@ -1380,73 +1380,72 @@ with tabs[9]:
                     use_container_width=True,
                     hide_index=True
                 )
-st.divider()
-st.subheader("✍️ Sätt packstorlek manuellt (när inget hittas)")
-st.caption("Detta används bara för pack-/enhetsprisvyer. Normalisering/kategorisering påverkas inte.")
-
-# Lista produkter med okänd packstorlek
-unknown_df = base[base["Pack"] == "?"].copy()
-if unknown_df.empty:
-    st.info("Inga produkter med okänd packstorlek just nu.")
-else:
-    cM1, cM2 = st.columns([2, 1])
-    with cM1:
-        vc = unknown_df["VaraNorm"].fillna("?").value_counts()
-        unknown_options = vc.reset_index()
-        # Pandas-versioner skiljer sig lite i kolumnnamn här; sätt dem explicit.
-        unknown_options.columns = ["VaraNorm", "Antal rader"]
-        st.write("**Okända packstorlekar (topplista)**")
-        st.dataframe(unknown_options.head(25), use_container_width=True, hide_index=True)
-
-    with cM2:
-        varanorm_list = unknown_options["VaraNorm"].tolist()
-        sel = st.selectbox("Välj VaraNorm att rätta", varanorm_list, key=wkey("pack_override_sel"))
-
-        cur_qty, cur_unit = get_pack_override(rules_pack, sel)
-        if cur_qty and cur_unit:
-            st.info(f"Nuvarande override: {format_pack_label(cur_qty, cur_unit)}")
+        st.divider()
+        st.subheader("✍️ Sätt packstorlek manuellt (när inget hittas)")
+        st.caption("Detta används bara för pack-/enhetsprisvyer. Normalisering/kategorisering påverkas inte.")
+        # Lista produkter med okänd packstorlek
+        unknown_df = base[base["Pack"] == "?"].copy()
+        if unknown_df.empty:
+            st.info("Inga produkter med okänd packstorlek just nu.")
         else:
-            st.info("Ingen override satt ännu.")
+            cM1, cM2 = st.columns([2, 1])
+        with cM1:
+            vc = unknown_df["VaraNorm"].fillna("?").value_counts()
+            unknown_options = vc.reset_index()
+            # Pandas-versioner skiljer sig lite i kolumnnamn här; sätt dem explicit.
+            unknown_options.columns = ["VaraNorm", "Antal rader"]
+            st.write("**Okända packstorlekar (topplista)**")
+            st.dataframe(unknown_options.head(25), use_container_width=True, hide_index=True)
 
-        # Visa exempel på råa namn som saknar pack
-        examples = (
-            unknown_df[unknown_df["VaraNorm"] == sel]["Vara"]
-            .dropna().astype(str).value_counts().head(6).index.tolist()
-        )
-        if examples:
-            st.write("**Exempel (råa namn):**")
-            for ex in examples:
-                st.write(f"- {ex}")
+        with cM2:
+            varanorm_list = unknown_options["VaraNorm"].tolist()
+            sel = st.selectbox("Välj VaraNorm att rätta", varanorm_list, key=wkey("pack_override_sel"))
 
-        qty_in = st.number_input("Mängd", min_value=0.0, value=float(cur_qty) if cur_qty else 0.0, step=0.1, key=wkey("pack_override_qty"))
-        unit_in = st.selectbox("Enhet", ["g", "hg", "kg", "ml", "cl", "dl", "l"], index=2, key=wkey("pack_override_unit"))
+            cur_qty, cur_unit = get_pack_override(rules_pack, sel)
+            if cur_qty and cur_unit:
+                st.info(f"Nuvarande override: {format_pack_label(cur_qty, cur_unit)}")
+            else:
+                st.info("Ingen override satt ännu.")
 
-        nqty, nunit = normalize_pack_input(qty_in, unit_in)
-        if nqty and nunit:
-            st.write(f"➡️ Sparas som: **{format_pack_label(nqty, nunit)}**")
-        else:
-            st.warning("Fyll i en positiv mängd och en giltig enhet.")
+            # Visa exempel på råa namn som saknar pack
+            examples = (
+                unknown_df[unknown_df["VaraNorm"] == sel]["Vara"]
+                .dropna().astype(str).value_counts().head(6).index.tolist()
+            )
+            if examples:
+                st.write("**Exempel (råa namn):**")
+                for ex in examples:
+                    st.write(f"- {ex}")
 
-        b1, b2 = st.columns(2)
-        with b1:
-            if st.button("💾 Spara override", use_container_width=True, key=wkey("pack_override_save")):
-                if not (nqty and nunit):
-                    st.error("Kan inte spara: ange en positiv mängd och giltig enhet.")
-                else:
-                    rules_pack.setdefault("pack_overrides", {})
-                    rules_pack["pack_overrides"][str(sel)] = {"qty": float(nqty), "unit": str(nunit)}
-                    save_rules(rules_pack)
-                    st.success("Override sparad ✅")
-                    st.rerun()
-        with b2:
-            if st.button("🗑️ Ta bort override", use_container_width=True, key=wkey("pack_override_del")):
-                po = rules_pack.get("pack_overrides", {}) or {}
-                if str(sel) in po:
-                    del po[str(sel)]
-                    rules_pack["pack_overrides"] = po
-                    save_rules(rules_pack)
-                    st.success("Override borttagen ✅")
-                    st.rerun()
-                else:
-                    st.info("Ingen override att ta bort.")
+            qty_in = st.number_input("Mängd", min_value=0.0, value=float(cur_qty) if cur_qty else 0.0, step=0.1, key=wkey("pack_override_qty"))
+            unit_in = st.selectbox("Enhet", ["g", "hg", "kg", "ml", "cl", "dl", "l"], index=2, key=wkey("pack_override_unit"))
+
+            nqty, nunit = normalize_pack_input(qty_in, unit_in)
+            if nqty and nunit:
+                st.write(f"➡️ Sparas som: **{format_pack_label(nqty, nunit)}**")
+            else:
+                st.warning("Fyll i en positiv mängd och en giltig enhet.")
+
+            b1, b2 = st.columns(2)
+            with b1:
+                if st.button("💾 Spara override", use_container_width=True, key=wkey("pack_override_save")):
+                    if not (nqty and nunit):
+                        st.error("Kan inte spara: ange en positiv mängd och giltig enhet.")
+                    else:
+                        rules_pack.setdefault("pack_overrides", {})
+                        rules_pack["pack_overrides"][str(sel)] = {"qty": float(nqty), "unit": str(nunit)}
+                        save_rules(rules_pack)
+                        st.success("Override sparad ✅")
+                        st.rerun()
+            with b2:
+                if st.button("🗑️ Ta bort override", use_container_width=True, key=wkey("pack_override_del")):
+                    po = rules_pack.get("pack_overrides", {}) or {}
+                    if str(sel) in po:
+                        del po[str(sel)]
+                        rules_pack["pack_overrides"] = po
+                        save_rules(rules_pack)
+                        st.success("Override borttagen ✅")
+                        st.rerun()
+                    else:
+                        st.info("Ingen override att ta bort.")
 
